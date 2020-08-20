@@ -29,7 +29,7 @@ variable "key" {
 
 variable "vpc_id" {
   description = "VPC"
-  default = "1"
+  default = "2"
 }
 
 variable "ami" {
