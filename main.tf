@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "us-east-1"
 }
-
+#helloworld
 resource "aws_instance" "scalr" {
   ami                    = var.ami
   instance_type          = var.instance_type
